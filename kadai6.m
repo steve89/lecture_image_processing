@@ -4,7 +4,7 @@
 % 課題作成にあたっては「Lenna」以外の画像を用いよ．
 
 clear; % 変数のオールクリア
-ORG=imread('Lenna.png'); % 原画像の入力
+ORG=imread('http://fuukeiga.com/wp-content/uploads/2011/06/9492f018ccfebe6e097bb68dd1960a4c.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG);
 imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 pause; % 一時停止
